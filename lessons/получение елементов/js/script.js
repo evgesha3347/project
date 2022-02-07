@@ -1,7 +1,7 @@
 'use strict';
 
-// const box = document.getElementById("box");//
-// console.log(box);
+const box = document.getElementById("box");//
+console.log(box);
 
 // const btns = document.getElementsByTagName("button");
 // console.log(btns[3]);
@@ -18,12 +18,12 @@
 
 // const oneHeart = document.querySelector('.heart');
 // console.log(oneHeart);
-const box = document.getElementById("box"),
-      btns = document.getElementsByTagName("button"),
-      circles = document.getElementsByClassName("circle"),
-      hearts = document.querySelectorAll(".heart"),
-      oneHeart = document.querySelector('.heart'),
-      wrapper =  document.querySelector('.wrapper');
+// const box = document.getElementById("box"),
+//       btns = document.getElementsByTagName("button"),
+//       circles = document.getElementsByClassName("circle"),
+//       hearts = document.querySelectorAll(".heart"),
+//       oneHeart = document.querySelector('.heart'),
+//       wrapper =  document.querySelector('.wrapper');
 
 // box.style.backgroundColor = 'blue';
 // box.style.width = '50px';
@@ -49,12 +49,12 @@ const box = document.getElementById("box"),
 //     item.style.backgroundColor ='brown';
 // });
 
-const div = document.createElement('div');
+// const div = document.createElement('div');
 // const text = document.createTextNode('hello');
-div.classList.add('black');
+// div.classList.add('black');
 // document.body.append(div);
 // document.querySelector('.wrapper').append(div);
-wrapper.append(div);
+// wrapper.append(div);
 // wrapper.appendChild(div);старый формат
 
 // wrapper.prepend(div);
@@ -63,7 +63,7 @@ wrapper.append(div);
 // wrapper.insertBefore(div, hearts[1]);
 
 // circles[0].remove();
-wrapper.removeChild(hearts[1] [0]);
+// wrapper.removeChild(hearts[1] [0]);
 
 // hearts[0].replaceWith(circles[0]);
 // wrapper.replaceChild(circles[0], hearts[0]);
